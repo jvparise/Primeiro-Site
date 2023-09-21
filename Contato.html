@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion Centro de Treinamento</title>
+    <!-- link rel=stylesheet "O atributo rel vem de relationship serve para você dizer qual o relacionamento do arquivo que você quer utilizar com o arquivo atual. 
+    Quando você coloca rel="stylesheet" , você está dizendo que o arquivo importado é o arquivo responsável pelo estilo da sua página. href="base.css" esta dirercionando
+    o arquivo css da sua página!-->
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <!--Wrap vem do inglês "embrulhar". Uma wrapper class é uma classe que "embrulha", envolve, outros objetos afim de adicionar
+        algum atributo ao conjunto ou melhor organizar seu código. -->
+    <div class="wrapper">
+        <div class="menu">
+            <ul class="menu-list">
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="Sobre.html">Sobre o CT</a></li>
+                <li><a href="Atendimento.html">Horário de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+<!--main serve para indicar o conteúdo principal ou a área principal do site. Faz mais sentido a section (ou várias) dentro de uma main e não o contrário. 
+    Mas se você usar um main dentro de uma section você está explicitando que aquele pedaço é a área mais importante e principal do site.-->
+    <div class="main">
+        <div class="header">
+            <img src="Letra Lion.png"/>
+    </div>
+    <div class="content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d630803.1287097224!2d-42.940078203140786!3d-22.280233346497965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x978bf2f4f071a7%3A0xc237e034bc6a8e0d!2sLion%20CT!5e0!3m2!1spt-BR!2sbr!4v1695143463099!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></br>
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d630803.1287097224!2d-42.940078203140786!3d-22.280233346497965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x978bf2f4f071a7%3A0xc237e034bc6a8e0d!2sLion%20CT!5e0!3m2!1spt-BR!2sbr!4v1695143463099!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"</br> -->
+            <strong>Nova Friburgo</strong>:- R. Pastor meyer, 31 - Centro, Nova Friburgo - RJ,  CEP: 28625-116
+            <h2>Contato</h2>
+                <form id="formulario" autocomplete="on">
+
+                        Nome:<input type="text" name="name"/>
+                        E-mail:<input type="email" name="email"/>
+                        Assunto:<input type="text" name="subject"/>
+                        Mensagem:<input type="textarea" name="textarea"/>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    
+                </form>
+            
+             
+            
+    </div>
+        <div class="footer">
+            <p>
+                <strong>Nova Friburgo</strong>:- R. Pastor meyer, 31 - Centro, Nova Friburgo - RJ,  CEP: 28625-116
+            </p>  
+        </div>
+    </div>
+</body>
+</html>

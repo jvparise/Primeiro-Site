@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #313030;
+    /* O display: flex funciona de uma maneira diferente dos outros displays. Quando colocamos essa propriedade em um elemento, 
+    esse elemento se torna um flex container, a partir daí podemos manipular todos os elementos filhos desse flex container com propriedades novas.*/
+    
+    /* A propriedade justify-content (en-US) é empregada para alinhar os elementos ao longo do eixo principal, cuja direção ( row ou column ) é definida a 
+    partir da propriedade flex-direction */
+    justify-content: center;
+}
+
+.wrapper {
+    /* display: flex; */
+    margin: 0 auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.main {
+    
+    display: flex;
+    flex-flow: column;
+    width: 100%
+}
+.menu {
+    color: rgb(179, 179, 179);
+    font-size:20px;
+    background-size: 500px;
+    padding: 10px 20px 0px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    list-style-type: none;
+    
+}
+.header {
+    background-color:rgb(36, 35, 20);
+    min-height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content:space-around;
+}
+.content {
+    text-align: center;
+    height: 1200px;
+    background-image: url(Cabeça.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color: rgb(36, 35, 20);
+    min-height: 100px;
+    padding: 20px;
+    font-size:17px;
+    background-size: 700px;
+}
+.footer {
+    text-align: center;
+    background-color: rgb(36, 35, 20);
+    min-height: 100px;
+    font-size:17px;
+}
+table thead th{
+    border:solid 1px rgb(249, 248, 250);
+    background-color:rgb(140, 190, 82);
+    color:#f9fcf6;
+
+}
+table tfoot td{
+    border:solid 1px rebeccapurple;
+    background-color: rgb(250, 250, 250);
+    color:chartreuse;
+}
+table tbody tr:nth-child(all){
+    background-color: rgb(238, 240, 236);
+
+}
+table tbody tr:hover td{
+    background-color: rgb(140, 190, 82);
+    cursor: pointer;
+}
+.tabela{
+    margin: 0 auto;
+}
